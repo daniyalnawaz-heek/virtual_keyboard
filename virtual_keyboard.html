@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>VIRTUAL KEYBOARD</title>
+  <link rel="stylesheet" type="text/css" href="virtual_keyboard.css">
+</head>
+<body>
+  <div id="head">
+    <h1>VIRTUAL KEYBOARD</h1>
+
+  </div>
+  <button id="sh" >DANIYAL virtual keyboard</button>
+  <div id="vk">
+    
+    <div class="output">
+      <input type="text" name="input" id="input" placeholder="PRESS A KEY">
+    </div>
+  
+  
+    <div class="virtual-keyboard">
+      <div class="row">
+        <input type="button" name="stroke" onclick="hit()" value="W">
+        <input type="button" name="stroke" onclick="hit()" value="Q">
+        <input type="button" name="stroke" onclick="hit()" value="E">
+        <input type="button" name="stroke" onclick="hit()" value="R">
+        <input type="button" name="stroke" onclick="hit()" value="T">
+        <input type="button" name="stroke" onclick="hit()" value="Y">
+        <input type="button" name="stroke" onclick="hit()" value="U">
+        <input type="button" name="stroke" onclick="hit()" value="I">
+        <input type="button" name="stroke" onclick="hit()" value="O">
+        <input type="button" name="stroke" onclick="hit()" value="P">
+      </div>
+  
+  
+  
+      <div class="row">
+        <input type="button" name="stroke" onclick="hit()"  value="A">
+        <input type="button" name="stroke" onclick="hit()"  value="S">
+        <input type="button" name="stroke" onclick="hit()"  value="D">
+        <input type="button" name="stroke" onclick="hit()"  value="F">
+        <input type="button" name="stroke" onclick="hit()"  value="G">
+        <input type="button" name="stroke" onclick="hit()"  value="H">
+        <input type="button" name="stroke" onclick="hit()"  value="J">
+        <input type="button" name="stroke" onclick="hit()"  value="K">
+        <input type="button" name="stroke" onclick="hit()"  value="L">
+        <input type="button" name="stroke" value="DEL" id="delete">
+      </div>
+  
+  
+      <div class="row">
+        <input type="button"  name="stroke" onclick="hit()" value="Z">
+        <input type="button"  name="stroke" onclick="hit()" value="X">
+        <input type="button"  name="stroke" onclick="hit()" value="C">
+        <input type="button"  name="stroke" onclick="hit()" value="V">
+        <input type="button"  name="stroke" onclick="hit()" value="B">
+        <input type="button"  name="stroke" onclick="hit()" value="N">
+        <input type="button"  name="stroke" onclick="hit()" value="M">
+        <input type="button"  name="stroke" value="CLEAR" onclick="clear()" id="clear">
+      </div>
+  
+      <div class="row">
+        <input type="button" id="spacebar" name="stroke" value="SPACEBAR">
+      </div>
+  
+    </div>
+  
+  </div>
+  <footer>
+    <div>MADE BY DANIYAL WITH &#x1F49D</div>
+  </footer>
+  <script src="virtual_keyboard.js"></script>
+  
+</body>
+</html>
